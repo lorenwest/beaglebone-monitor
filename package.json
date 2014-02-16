@@ -1,0 +1,23 @@
+{
+  "name": "beaglebone-monitor",
+  "description": "BeagleBone Monitor",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "Loren West <open_source@lorenwest.com>",
+  "homepage": "http://lorenwest.github.com/beaglebone-monitor/",
+  "licenses": ["MIT"],
+  "repository": {
+    "type" : "git",
+    "url" : "http://github.com/lorenwest/beaglebone-monitor.git"
+  },
+  "dependencies": {
+    "bonescript": ">=0.2.4",
+    "monitor": ">=0.6.0 <0.7.0",
+    "monitor-dashboard": ">=0.6.0 <0.7.0"
+  },
+  "devDependencies": {
+  },
+  "engines": {"node": ">0.10.x"},
+  "scripts": {
+  }
+}
