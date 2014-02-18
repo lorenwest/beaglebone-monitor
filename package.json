@@ -11,6 +11,7 @@
     "url" : "http://github.com/lorenwest/beaglebone-monitor.git"
   },
   "dependencies": {
+    "connect": ">=2.13.0 < 2.14.0",
     "bonescript": ">=0.2.4",
     "monitor": ">=0.6.0 <0.7.0",
     "monitor-dashboard": ">=0.6.0 <0.7.0"
