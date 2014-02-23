@@ -1,5 +1,6 @@
 {
   "Monitor": {
-    "appName": "beaglebone-monitor"
+    "appName": "beaglebone-monitor",
+    "allowExternalConnections": true,
   }
 }
