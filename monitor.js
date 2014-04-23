@@ -1,2 +1,3 @@
 // Bootstrap for standalone development
-require('monitor-dashboard');
+require('./lib/index');
+require('monitor');

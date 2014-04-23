@@ -2,5 +2,19 @@
   "Monitor": {
     "appName": "beaglebone-monitor",
     "allowExternalConnections": true,
+    "consoleLogListener": {
+      "pattern": "{debug,trace,info,warn,error,fatal}.*"
+    } /* */,
+    "autoStart": {
+      "beaglebone": {
+        "probeName": "bb-test", "probeClass": "BeagleBone", "initParams":{
+          "pins": [
+            {"id":"USR1", "name":"test1", "direction":"in", "pollMs":1000},
+            {"id":"USR2", "name":"test2", "direction":"out", "value":1}
+          ]
+        }
+      }
+    }
+    /* */
   }
 }
